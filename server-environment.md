@@ -500,7 +500,7 @@ The following versions of MariaDB have reached their end of life (EOL) and are n
 | 10.9    | August 22, 2022    | 10.9.8 (August 14, 2023)    | August 22, 2023   |
 | 10.8    | May 21, 2022       | 10.8.8 (May 10, 2023)       | May 20, 2023      |
 | 10.7    | February 14, 2022  | 10.7.8 (February 6, 2023)   | February 9, 2023  |
-| 10.5    | June 24, 2020      | 10.5.25 (May 16, 2024)      | June 24, 2025     |
+| 10.5    | June 24, 2020      | 10.5.25 (May 8, 2024)      | June 24, 2025     |
 | 10.4    | June 16, 2019      | 10.4.34 (May 17, 2024)      | June 18, 2024     |
 | 10.3    | May 25, 2018       | 10.3.39 (May 10, 2023)      | May 25, 2023      |
 | 10.2    | May 23, 2017       | 10.2.44 (May 21, 2022)      | May 23, 2022      |
