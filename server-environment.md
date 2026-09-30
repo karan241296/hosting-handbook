@@ -233,9 +233,9 @@ _Related PHP compatibility tickets_
 - PHP 8.1
   - _Not all "passing null to non-nullable" issues have been found._ In PHP, you can tell a function exactly what type of information it should accept. If you tell a function to expect a certain type of information, and you give it nothing at all (null is like saying "nothing"), then PHP gets confused and gives an error. This problem happens when someone accidentally gives a function "nothing" when the function wasn't designed to handle "nothing".
   - [_`htmlentities()` needs the default value of the flags parameter explicitly set_](https://core.trac.wordpress.org/ticket/53465). According to [htmlentities()](https://www.php.net/manual/en/function.htmlentities.php), the default for flags for PHP 8.1 was "changed from ENT_COMPAT to ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML401". All use cases for this functionality in WordPress Core are being investigated. NOTE: Has a patch, but moved to WordPress 6.7.
-  - [_Replace most `strip_tags()` with `wp_strip_tags()`_](https://core.trac.wordpress.org/ticket/57579).
+  - [_Replace most `strip_tags()` with `wp_strip_all_tags()`_](https://core.trac.wordpress.org/ticket/57579).
     There are rare occasions when the `strip_tags()` function is passed a null value, which generates a warning that the string is deprecated. NOTE: Has a patch.
-  - [_Update `is_serialized` function to accept `Enums`_](https://core.trac.wordpress.org/ticket/53299). `Enums` are not backwards compatible with older PHP versions. NOTE: Has a patch, but moved to WordPress 6.7.
+  - [_Update `is_serialized` function to accept `Enums`_](https://core.trac.wordpress.org/ticket/53299). `Enums` are not backwards compatible with older PHP versions. Fixed in [changeset 53886](https://core.trac.wordpress.org/changeset/53886) and released in WordPress 6.1.
 
 - PHP 8.2
   - [_`utf8_{encode|decode}` deprecation_](https://core.trac.wordpress.org/ticket/55603) with pending decision on requiring a PHP extension. NOTE: Has a patch, but moved to WordPress 6.7.
