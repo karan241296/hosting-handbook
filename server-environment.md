@@ -477,7 +477,7 @@ The following versions of MySQL have reached their end of life (EOL) and are no 
 | 9.1*    | October 15, 2024   | 9.1.0 (October 15, 2024)  | January 21, 2025  |
 | 9.0*    | July 1, 2024       | 9.0.1 (July 23, 2024)     | October 15, 2024  |
 | 8.3*    | January 16, 2024   | 8.3.0 (January 16, 2024)  | July 1, 2024      |
-| 8.2*    | October 25, 2023   | 8.2.0 (October 25, 2023)  | January 16, 2024  |
+| 8.2*    | October 25, 2023   | 8.2.0 (October 25, 2024)  | January 16, 2024  |
 | 8.1*    | July 18, 2023      | 8.1.0 (July 18, 2023)     | October 25, 2023  |
 | 5.7     | October 21, 2015   | 5.7.44 (October 25, 2023) | October 21, 2023  |
 | 5.6     | February 5, 2013   | 5.6.51 (January 20, 2021) | February 5, 2021  |
